@@ -1,0 +1,22 @@
+Spread (...) va Rest (...)
+Spread – ... qip ochib yuboradi, array/obj ichidagini yoyib beradi.
+Rest – ... qip yig‘ib oladi, funksiya paramda ishlidi.
+======================================================================
+Date object
+Sana va vaqtni olishga xizmat qiliydi.
+new Date() yozsang hozirgi vaqtni olib keladi.
+getFullYear(), getMonth(), getDate() degan methodlari bor.
+Hamma narsa millisekundlarda hisoblanadi, vaqtni hisoblashga qulay.
+======================================================================
+Shallow copy va Deep copy
+Shallow copy – yuzaki ko‘chiradi. Obj ichida boshqa obj bo‘lsa, linkini olib qo‘yadi.
+let a = {x:1, y:{z:2}};  
+let b = {...a};  
+b.y.z = 100; 
+Deep copy – hamma ichini ham yangi qilib nusxa oladi. JSON.parse(JSON.stringify(obj)) yoki lodash cloneDeep bn qilsa bo‘ladi.
+======================================================================
+Spread/rest – yoyib yig‘ib oladi.
+Date – vaqtni olish.
+Destruct – qisqa yo‘l bn value olish.
+Heap/stack – xotira ishlash tarzi.
+Shallow/deep – copy farqi.
