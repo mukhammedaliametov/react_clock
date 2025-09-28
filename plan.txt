@@ -19,4 +19,5 @@ Spread/rest – yoyib yig‘ib oladi.
 Date – vaqtni olish.
 Destruct – qisqa yo‘l bn value olish.
 Heap/stack – xotira ishlash tarzi.
+
 Shallow/deep – copy farqi.
